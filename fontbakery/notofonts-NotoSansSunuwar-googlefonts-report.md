@@ -1166,33 +1166,33 @@ definitions.</p>
 
 * zerosunuwar (U+11BF0): X=428.0,Y=1.5 (should be at baseline 0?)
 
-* period (U+002E): X=177.5,Y=2.0 (should be at baseline 0?)
-
 * period (U+002E): X=90.0,Y=2.0 (should be at baseline 0?)
 
-* colon (U+003A): X=177.5,Y=2.0 (should be at baseline 0?)
+* period (U+002E): X=177.5,Y=2.0 (should be at baseline 0?)
 
 * colon (U+003A): X=90.0,Y=2.0 (should be at baseline 0?)
 
-* ellipsis (U+2026): X=177.5,Y=2.0 (should be at baseline 0?)
+* colon (U+003A): X=177.5,Y=2.0 (should be at baseline 0?)
 
 * ellipsis (U+2026): X=90.0,Y=2.0 (should be at baseline 0?)
 
-* ellipsis (U+2026): X=439.5,Y=2.0 (should be at baseline 0?)
+* ellipsis (U+2026): X=177.5,Y=2.0 (should be at baseline 0?)
 
 * ellipsis (U+2026): X=352.0,Y=2.0 (should be at baseline 0?)
 
-* ellipsis (U+2026): X=700.5,Y=2.0 (should be at baseline 0?)
+* ellipsis (U+2026): X=439.5,Y=2.0 (should be at baseline 0?)
 
 * ellipsis (U+2026): X=613.0,Y=2.0 (should be at baseline 0?)
 
-* exclam (U+0021): X=177.5,Y=2.0 (should be at baseline 0?)
+* ellipsis (U+2026): X=700.5,Y=2.0 (should be at baseline 0?)
 
 * exclam (U+0021): X=90.0,Y=2.0 (should be at baseline 0?)
 
-* question (U+003F): X=222.0,Y=2.0 (should be at baseline 0?)
+* exclam (U+0021): X=177.5,Y=2.0 (should be at baseline 0?)
 
 * question (U+003F): X=134.5,Y=2.0 (should be at baseline 0?)
+
+* question (U+003F): X=222.0,Y=2.0 (should be at baseline 0?)
 
 * braceleft (U+007B): X=150.0,Y=1.0 (should be at baseline 0?)
 
@@ -1256,11 +1256,13 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have segments which seem very short:</p>
-<pre><code>* imarsunuwar (U+11BC3) contains a short segment L&lt;&lt;482.0,533.0&gt;--&lt;491.0,527.0&gt;&gt;
+<pre><code>* imarsunuwar (U+11BC3) contains a short segment L&lt;&lt;50.0,286.0&gt;--&lt;41.0,293.0&gt;&gt;
 
-* imarsunuwar (U+11BC3) contains a short segment L&lt;&lt;50.0,286.0&gt;--&lt;41.0,293.0&gt;&gt;
+* imarsunuwar (U+11BC3) contains a short segment L&lt;&lt;482.0,533.0&gt;--&lt;491.0,527.0&gt;&gt;
 
 * utthisunuwar (U+11BC5) contains a short segment B&lt;&lt;126.5,539.5&gt;-&lt;129.0,530.0&gt;-&lt;130.0,526.0&gt;&gt;
+
+* gilsunuwar (U+11BCA) contains a short segment L&lt;&lt;429.0,361.0&gt;--&lt;426.0,362.0&gt;&gt;
 
 * gilsunuwar (U+11BCA) contains a short segment B&lt;&lt;244.5,727.0&gt;-&lt;258.0,725.0&gt;-&lt;265.0,723.0&gt;&gt;
 
@@ -1268,15 +1270,13 @@ definitions.</p>
 
 * gilsunuwar (U+11BCA) contains a short segment B&lt;&lt;245.0,644.5&gt;-&lt;237.0,646.0&gt;-&lt;226.0,646.0&gt;&gt;
 
-* gilsunuwar (U+11BCA) contains a short segment L&lt;&lt;429.0,361.0&gt;--&lt;426.0,362.0&gt;&gt;
-
 * hamsosunuwar (U+11BCB) contains a short segment L&lt;&lt;562.0,10.0&gt;--&lt;558.0,0.0&gt;&gt;
+
+* bursunuwar (U+11BCE) contains a short segment L&lt;&lt;194.0,306.0&gt;--&lt;185.0,313.0&gt;&gt;
 
 * bursunuwar (U+11BCE) contains a short segment L&lt;&lt;531.0,545.0&gt;--&lt;540.0,539.0&gt;&gt;
 
 * bursunuwar (U+11BCE) contains a short segment L&lt;&lt;403.0,402.0&gt;--&lt;403.0,392.0&gt;&gt;
-
-* bursunuwar (U+11BCE) contains a short segment L&lt;&lt;194.0,306.0&gt;--&lt;185.0,313.0&gt;&gt;
 
 * jyahsunuwar (U+11BCF) contains a short segment L&lt;&lt;45.0,704.0&gt;--&lt;51.0,714.0&gt;&gt;
 
@@ -1286,8 +1286,6 @@ definitions.</p>
 
 * varcasunuwar (U+11BD3) contains a short segment B&lt;&lt;439.0,119.0&gt;-&lt;438.0,112.0&gt;-&lt;437.5,102.5&gt;&gt;
 
-* avasunuwar (U+11BD5) contains a short segment B&lt;&lt;708.5,77.5&gt;-&lt;726.0,88.0&gt;-&lt;733.0,93.0&gt;&gt;
-
 * avasunuwar (U+11BD5) contains a short segment L&lt;&lt;125.0,193.0&gt;--&lt;125.0,163.0&gt;&gt;
 
 * avasunuwar (U+11BD5) contains a short segment L&lt;&lt;715.0,227.0&gt;--&lt;708.0,219.0&gt;&gt;
@@ -1296,13 +1294,15 @@ definitions.</p>
 
 * avasunuwar (U+11BD5) contains a short segment B&lt;&lt;697.5,217.5&gt;-&lt;691.0,217.0&gt;-&lt;682.0,215.0&gt;&gt;
 
+* avasunuwar (U+11BD5) contains a short segment B&lt;&lt;708.5,77.5&gt;-&lt;726.0,88.0&gt;-&lt;733.0,93.0&gt;&gt;
+
 * aalsunuwar (U+11BD6) contains a short segment B&lt;&lt;216.0,331.0&gt;-&lt;216.0,337.0&gt;-&lt;210.0,341.0&gt;&gt;
 
 * dongasunuwar (U+11BD7) contains a short segment L&lt;&lt;356.0,416.0&gt;--&lt;359.0,415.0&gt;&gt;
 
-* tentusunuwar (U+11BDE) contains a short segment L&lt;&lt;630.0,8.0&gt;--&lt;626.0,0.0&gt;&gt;
-
 * tentusunuwar (U+11BDE) contains a short segment L&lt;&lt;19.0,0.0&gt;--&lt;15.0,8.0&gt;&gt;
+
+* tentusunuwar (U+11BDE) contains a short segment L&lt;&lt;630.0,8.0&gt;--&lt;626.0,0.0&gt;&gt;
 
 * thelesunuwar (U+11BDF) contains a short segment L&lt;&lt;545.0,664.0&gt;--&lt;543.0,661.0&gt;&gt;
 
@@ -1310,27 +1310,27 @@ definitions.</p>
 
 * klokosunuwar (U+11BE0) contains a short segment L&lt;&lt;175.0,567.0&gt;--&lt;178.0,565.0&gt;&gt;
 
+* twosunuwar (U+11BF2) contains a short segment L&lt;&lt;60.0,117.0&gt;--&lt;51.0,124.0&gt;&gt;
+
 * twosunuwar (U+11BF2) contains a short segment L&lt;&lt;60.0,383.0&gt;--&lt;51.0,390.0&gt;&gt;
 
 * twosunuwar (U+11BF2) contains a short segment L&lt;&lt;492.0,630.0&gt;--&lt;501.0,624.0&gt;&gt;
 
 * twosunuwar (U+11BF2) contains a short segment L&lt;&lt;492.0,364.0&gt;--&lt;501.0,358.0&gt;&gt;
 
-* twosunuwar (U+11BF2) contains a short segment L&lt;&lt;60.0,117.0&gt;--&lt;51.0,124.0&gt;&gt;
+* threesunuwar (U+11BF3) contains a short segment L&lt;&lt;60.0,117.0&gt;--&lt;51.0,124.0&gt;&gt;
 
 * threesunuwar (U+11BF3) contains a short segment L&lt;&lt;60.0,383.0&gt;--&lt;51.0,390.0&gt;&gt;
 
 * threesunuwar (U+11BF3) contains a short segment L&lt;&lt;492.0,630.0&gt;--&lt;501.0,624.0&gt;&gt;
 
-* threesunuwar (U+11BF3) contains a short segment L&lt;&lt;60.0,117.0&gt;--&lt;51.0,124.0&gt;&gt;
+* eightsunuwar (U+11BF8) contains a short segment L&lt;&lt;55.0,0.0&gt;--&lt;51.0,10.0&gt;&gt;
 
 * eightsunuwar (U+11BF8) contains a short segment L&lt;&lt;54.0,704.0&gt;--&lt;60.0,714.0&gt;&gt;
 
 * eightsunuwar (U+11BF8) contains a short segment L&lt;&lt;527.0,714.0&gt;--&lt;533.0,704.0&gt;&gt;
 
 * eightsunuwar (U+11BF8) contains a short segment L&lt;&lt;542.0,10.0&gt;--&lt;538.0,0.0&gt;&gt;
-
-* eightsunuwar (U+11BF8) contains a short segment L&lt;&lt;55.0,0.0&gt;--&lt;51.0,10.0&gt;&gt;
 </code></pre>
  [code: found-short-segments]
 
