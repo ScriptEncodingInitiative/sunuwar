@@ -12,7 +12,7 @@ fontbakery version: 0.13.2
 
 
 
-<details><summary>[14] NotoSansSunuwar-Regular.ttf</summary>
+<details><summary>[10] NotoSansSunuwar-Regular.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Does the font have any invalid script tags? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-layout-valid-script-tags">opentype/layout_valid_script_tags</a></summary>
@@ -56,24 +56,6 @@ fontbakery version: 0.13.2
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Name table entries should not contain line-breaks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-line-breaks">googlefonts/name/line_breaks</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Name entry DESCRIPTION on platform WINDOWS contains a line-break.</p>
- [code: line-break]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>🔥 <b>FAIL</b> Copyright notices match canonical pattern in fonts <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-font-copyright">googlefonts/font_copyright</a></summary>
     <div>
 
@@ -86,7 +68,7 @@ fontbakery version: 0.13.2
 * 🔥 **FAIL** <p>Name Table entry: Copyright notices should match a pattern similar to:</p>
 <p>&quot;Copyright 2020 The Familyname Project Authors (git url)&quot;</p>
 <p>But instead we have got:</p>
-<p>&quot;Copyright 2011-2021 Anshuman Pandey&quot;</p>
+<p>&quot;Copyright 2021 Anshuman Pandey&quot;</p>
  [code: bad-notice-format]
 
 
@@ -177,12 +159,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, old-permic, tai-le, coptic, hebrew, duployan, syriac, todhri, malayalam, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, canadian-aboriginal, old-permic, hebrew, tai-le, tifinagh, todhri, duployan, syriac, math</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -191,7 +173,7 @@ definitions.</p>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+1DF5 COMBINING UP TACK ABOVE: not included in any glyphset definition</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: adlam, math, tibetan, khmer, buhid, batak, newa, dogra, mahajani, kannada, gunjala-gondi, old-permic, zanabazar-square, syriac, nko, modi, kaithi, music, phags-pa, sundanese, lao, tagalog, sinhala, thaana, ahom, marchen, thai, tifinagh, saurashtra, pahawh-hmong, javanese, tai-le, oriya, balinese, yi, mandaic, tirhuta, warang-citi, sogdian, duployan, khudawadi, caucasian-albanian, malayalam, canadian-aboriginal, elbasan, telugu, soyombo, rejang, siddham, masaram-gondi, lepcha, tai-tham, bhaiksuki, coptic, psalter-pahlavi, kayah-li, miao, mongolian, sharada, osage, tai-viet, syloti-nagri, buginese, limbu, manichaean, meetei-mayek, cham, new-tai-lue, wancho, hebrew, bengali, takri, bassa-vah, hanifi-rohingya, symbols, myanmar, chakma, gujarati, armenian, gurmukhi, tagbanwa, brahmi, devanagari, mende-kikakui, tamil, hanunoo, khojki, grantha, kharoshthi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: newa, mandaic, tagbanwa, osage, buginese, tai-viet, cham, meetei-mayek, rejang, gunjala-gondi, zanabazar-square, bhaiksuki, math, bassa-vah, caucasian-albanian, music, ahom, myanmar, phags-pa, old-permic, hanifi-rohingya, modi, hanunoo, javanese, nko, kaithi, batak, balinese, gujarati, mende-kikakui, symbols, saurashtra, armenian, mahajani, pahawh-hmong, khmer, grantha, khojki, limbu, miao, mongolian, lepcha, telugu, tai-tham, coptic, tagalog, brahmi, thaana, sharada, manichaean, sogdian, khudawadi, kannada, tifinagh, kayah-li, bengali, new-tai-lue, canadian-aboriginal, tamil, oriya, hebrew, takri, sinhala, masaram-gondi, yi, siddham, tai-le, duployan, syriac, buhid, devanagari, malayalam, wancho, adlam, sundanese, soyombo, elbasan, chakma, gurmukhi, warang-citi, syloti-nagri, tibetan, dogra, lao, marchen, psalter-pahlavi, tirhuta, kharoshthi, thai</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code>, <code>sunuwar</code></p>
  [code: unreachable-subsetting]
@@ -353,64 +335,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-colinear-vectors">outline_colinear_vectors</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* thelesunuwar (U+11BDF): L&lt;&lt;45.0,50.0&gt;--&lt;58.0,70.0&gt;&gt; -&gt; L&lt;&lt;58.0,70.0&gt;--&lt;428.0,635.0&gt;&gt;
-</code></pre>
- [code: found-colinear-vectors]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any semi-vertical or semi-horizontal lines? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-semi-vertical">outline_semi_vertical</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* shyelesunuwar (U+11BDC): L&lt;&lt;448.0,221.0&gt;--&lt;450.0,714.0&gt;&gt;
-</code></pre>
- [code: found-semi-vertical]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font file does not have a 'meta' table.</p>
- [code: lacks-meta-table]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Description strings in the name table must not exceed 200 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-description-max-length">googlefonts/name/description_max_length</a></summary>
     <div>
 
@@ -437,8 +361,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 4 | 10 | 106 | 5 | 111 | 0 | 
-| 0% | 0% | 2% | 4% | 45% | 2% | 47% | 0% | 
+| 0 | 0 | 3 | 7 | 106 | 6 | 114 | 0 | 
+| 0% | 0% | 1% | 3% | 45% | 3% | 48% | 0% | 
 
 
 
